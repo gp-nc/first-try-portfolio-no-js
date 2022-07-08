@@ -1,4 +1,6 @@
-:root {}
+:root {
+    width: 1px;
+}
 
 html,
 body {
@@ -6,6 +8,9 @@ body {
     margin: 0;
     padding: 0;
     align-items: center;
+    /* min-width: 900px; */
+    text-align: center;
+    max-width: 90px;
 }
 
 #top {
@@ -44,4 +49,40 @@ h1 {
 .main-div-two {
     border: 10px solid grey;
     padding: 22px;
+}
+
+.navigation-table {
+    background-color: #E5DCC5;
+    height: 10vh;
+    width: 100vw;
+    border: 4px solid black;
+    border-spacing: 50px;
+    border-right: 0;
+    margin-right: 0;
+}
+
+td {
+    /* padding: 10px */
+}
+
+a {
+    text-decoration: none;
+    color: #70161E;
+    font: EduSABeginner;
+    font-size: 2rem;
+}
+
+@font-face {
+    font-family: EduSABeginner;
+    src: url(./fonts/EduSABeginner-VariableFont_wght.ttf)
+}
+
+#About-Me {
+    background-color: #E5DCC5;
+    margin: 5px;
+    border: 4px solid black;
+    width: 90vw;
+    height: 20vh;
+    margin-bottom: 0;
+    margin-left: 50px;
 }
